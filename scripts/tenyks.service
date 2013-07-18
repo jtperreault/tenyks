@@ -1,0 +1,13 @@
+[Unit]
+Description=Tenyks
+
+[Service]
+Type=simple
+PIDFile=/run/tenyks.pid
+User=tenyks
+Group=tenyks
+ExecStartPre=/bin/mkdir -p /etc/tenyks
+ExecStart=/usr/local/bin/tenyks /etc/tenyks/settings.py
+
+[Install]
+WantedBy=multi-user.target
