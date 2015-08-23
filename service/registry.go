@@ -2,9 +2,9 @@ package service
 
 import (
 	"fmt"
+	"github.com/pborman/uuid"
 	"sync"
 	"time"
-	"code.google.com/p/go-uuid/uuid"
 )
 
 type ServiceRegistry struct {

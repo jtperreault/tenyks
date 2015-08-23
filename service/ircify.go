@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"code.google.com/p/go-uuid/uuid"
 	"github.com/kyleterry/tenyks/irc"
+	"github.com/pborman/uuid"
 )
 
 type Message struct {
