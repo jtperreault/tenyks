@@ -161,7 +161,7 @@ Example JSON response from a service to Tenyks destined for IRC
 ### Service Registration
 
 Registering your service with the bot will let people ask Tenyks which services
-are online and available for use. Registering is not requires; anything
+are online and available for use. Registering is not required; anything
 listening on the pubsub channel can respond without registration.
 
 Each service should have a unique UUID set in it's REGISTER message. An example
